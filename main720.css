@@ -1,0 +1,30 @@
+@media screen and (min-width: 720px) {
+  .menu {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    flex: 0 0 40%;
+  }
+  .nav-options {
+    position: static;
+    transform: translateY(0);
+    background-color: 0;
+    flex: 0 0 60%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main {
+    display: flex;
+    padding: 1em 2em;
+  }
+  .description {
+    flex: 1 0 40%;
+  }
+  .presentation {
+    flex: 0 0 50%;
+  }
+}

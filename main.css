@@ -65,6 +65,10 @@ nav {
   border: 1px solid white;
   font-family: var(--letter-three);
 }
+/*-----------------------------------MAIN-----------------------------------------*/
+main {
+  padding: 0 0.5em;
+}
 /*Description*/
 .description {
   display: flex;
@@ -91,7 +95,7 @@ nav {
 /*presentation*/
 .presentation {
   position: relative;
-  margin-bottom: 20vh;
+  margin-bottom: 35vh;
 }
 .presentation img {
   width: 100%;
@@ -142,4 +146,3 @@ nav {
   font-family: var(--letter-two);
   font-weight: 700;
 }
-/*-----------------------------------MAIN-----------------------------------------*/
