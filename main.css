@@ -1,0 +1,45 @@
+/*-----------------------------------GENERAL-----------------------------------------*/
+:root {
+}
+body {
+  background-color: #181719;
+  color: white;
+}
+/*-----------------------------------NAV-----------------------------------------*/
+.menu {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 10vw;
+  top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  z-index: 999;
+}
+.nav-options {
+  position: fixed;
+  transform: translateY(-100%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 998;
+  transition: transform 0.5s ease;
+}
+.nav-options a {
+  margin: 1em 0;
+}
+.nav-move {
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+}
+
+/*-----------------------------------MAIN-----------------------------------------*/
