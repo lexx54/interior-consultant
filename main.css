@@ -6,17 +6,20 @@ body {
   color: white;
 }
 /*-----------------------------------NAV-----------------------------------------*/
+nav {
+  margin-bottom: 2em;
+}
 .menu {
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   right: 10vw;
-  top: 5vh;
+  top: 2vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  /* border: 1px solid white; */
+
   border-radius: 50%;
   z-index: 999;
 }
@@ -40,6 +43,18 @@ body {
 .nav-move {
   transform: translateY(0);
   transition: transform 0.5s ease;
+}
+
+.nav-logo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.nav-logo p {
+  display: inline;
+  margin: 0.5em;
+  padding: 0.5em 0.5em;
+  border: 1px solid white;
 }
 
 /*-----------------------------------MAIN-----------------------------------------*/
