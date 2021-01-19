@@ -1,9 +1,14 @@
 /*-----------------------------------GENERAL-----------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;700&family=Montserrat:wght@300;500&display=swap");
 :root {
+  --letter-one: "Montserrat", sans-serif;
+  --letter-two: "Lora", serif;
+  --letter-three: "Crimson Pro", serif;
 }
 body {
   background-color: #181719;
   color: white;
+  font-family: var(--letter-one);
 }
 /*-----------------------------------NAV-----------------------------------------*/
 nav {
@@ -58,6 +63,7 @@ nav {
   margin: 0.5em;
   padding: 0.5em 0.5em;
   border: 1px solid white;
+  font-family: var(--letter-three);
 }
 /*Description*/
 .description {
@@ -67,15 +73,20 @@ nav {
 .description-title {
   margin-bottom: 1rem;
   font-size: 2rem;
+  font-family: var(--letter-two);
+  font-weight: 400;
 }
 .description-text {
   margin-bottom: 1rem;
   width: 80%;
+  font-weight: 300;
+  color: #fff;
 }
 .description-link {
   margin-bottom: 1rem;
   color: white;
   text-decoration: none;
+  font-weight: 600;
 }
 /*presentation*/
 .presentation {
@@ -117,9 +128,18 @@ nav {
   line-height: 1.5rem;
   margin-left: 0.5em;
 }
+.presentation-desc-author {
+  font-weight: 500;
+}
+.presentation-desc-job {
+  font-weight: 500;
+  color: #828282;
+}
 .presentation-desc-sign {
   line-height: 1.5rem;
   width: 70%;
   margin: 0 0 0.5rem 1rem;
+  font-family: var(--letter-two);
+  font-weight: 700;
 }
 /*-----------------------------------MAIN-----------------------------------------*/
