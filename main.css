@@ -36,9 +36,12 @@ nav {
   align-items: center;
   z-index: 998;
   transition: transform 0.5s ease;
+  background-color: #181719;
 }
 .nav-options a {
   margin: 1em 0;
+  color: white;
+  text-decoration: none;
 }
 .nav-move {
   transform: translateY(0);
@@ -56,5 +59,67 @@ nav {
   padding: 0.5em 0.5em;
   border: 1px solid white;
 }
-
+/*Description*/
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.description-title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.description-text {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+.description-link {
+  margin-bottom: 1rem;
+  color: white;
+  text-decoration: none;
+}
+/*presentation*/
+.presentation {
+  position: relative;
+  margin-bottom: 20vh;
+}
+.presentation img {
+  width: 100%;
+}
+.presentation-desc {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #191719;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.presentation-desc div {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 0.5em 0;
+}
+.presentation-desc div div:first-child {
+  flex: 0 0 30%;
+  margin-left: 0.5em;
+}
+.presentation-desc div div:first-child img {
+  border-radius: 50%;
+}
+.presentation-desc div div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0 0 50%;
+  line-height: 1.5rem;
+  margin-left: 0.5em;
+}
+.presentation-desc-sign {
+  line-height: 1.5rem;
+  width: 70%;
+  margin: 0 0 0.5rem 1rem;
+}
 /*-----------------------------------MAIN-----------------------------------------*/
